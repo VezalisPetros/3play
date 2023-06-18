@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #202020;
+    font-family:sans-serif;
+    color: white;
+    background-image: url("../images/OC1YA40.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+header{
+   
+    height: 100em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 0px 0px 2rem 2rem ;
+   box-shadow:0px 2px 6px rgba(25, 25, 26, 0.8);
+    background-color:rgba(7, 81, 104, 0.8);
+    background-image: url("../images/textfx.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+   
+    
+    
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    
+}
+
+main{
+    width: 100%;
+}
+a{  
+    
+
+}
+
+button{
+    background-color:rgba(7, 81, 104, 0.8);
+    color:white;
+    padding: 20px;
+    border-radius: 1rem;
+    width: 40%;
+    margin: 30px;
+    font-size: 30px;
+    border: none;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.8);
+    background-image: url("../images/textfx.jpg");
+    
+
+}
+
+button:hover {
+  
+  transform: translateY(-0.5em);
+  cursor: pointer;
+
+}
+
+.BlackJack:hover{
+    background-image:url("https://img.freepik.com/premium-photo/green-poker-table-background_87414-3611.jpg?w=2000");
+    background-size: cover;
+    color: darkgoldenrod;
+    box-shadow: 0 0.5em 0.5em -0.4em  darkgoldenrod;
+    
+}
+
+.Tic:hover{
+    background-image: url("https://th.bing.com/th/id/R.232e598bc1f96fb031751a2e51b25428?rik=DkEE8CeyYeoVLQ&riu=http%3a%2f%2fimage.shutterstock.com%2fz%2fstock-vector-abstract-ornament-tic-tac-toe-seamless-vector-wallpaper-16937032.jpg&ehk=SAVUd9WuTtukuF5bxB3rNbU5T%2fRS0YsrJBocHZHREKQ%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    color: white;
+    background-blend-mode: multiply;
+    box-shadow: 0 0.5em 0.5em -0.4em  whitesmoke;
+    
+}
+
+.Snake:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em  #90EE90;
+    background-image: url("https://th.bing.com/th/id/R.2088ac35fd9cc00cffc24f4403f1b21b?rik=S9tc5oDjyPDQ6A&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f2%2fCute-Snake-Transparent-Background.png&ehk=dOwO6wT6Eao07LN0cd%2bYACs7xA43%2bdERx6grZ6v6td4%3d&risl=&pid=ImgRaw&r=0");
+    background-size: contain;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-color: #ADFF2F;
+    color:  #2F4F4F;
+     
+}
+
+
+
+

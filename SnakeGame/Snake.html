@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Snake.css">
+</head>
+<body>
+
+    <div class="goBackBtn">
+        <a href="../MainPage/MainPage.html">
+            <img src="../images/Goback.png" width="7%">
+        </a>
+        
+    </div>
+
+
+ <header>
+
+
+        <img src="../images/Snake-image.png" width="100%">
+    </header>
+
+    <main id="gameContainer">
+        
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+       
+        <div class="scores">
+            <div class="currentscore">
+                <img src="https://static.vecteezy.com/system/resources/previews/008/506/545/original/apple-fruit-cartoon-png.png" width="50px">
+                <div id="scoreText">0</div>
+            </div>
+            <div class="highscore">
+                <img src="https://cdn1.iconfinder.com/data/icons/trophy-and-awards-cartoon/512/g1341-512.png" width="80px" >
+                <div id="highscoreText">0</div>
+            </div>
+            
+        </div>
+        
+        <div class="buttons">
+            <button id="startBtn" onclick="this.classList.add('hidden')">Start</button>
+            
+              <div class="level">
+                <h2>Mode:</h2>
+                <input type="radio" name="difficuly" id="Easy" checked="checked">
+                <label for="Easy">Easy</label>
+                <input type="radio" name="difficuly" id="Hard">
+                <label for="Hard">Hard</label>
+              </div>
+               
+            <button id="resetBtn">Reset</button>    
+        </div>
+    </main> 
+    <script src="index.js"></script>
+</body>
+</html>

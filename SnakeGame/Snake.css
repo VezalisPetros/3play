@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("../images/Snake-wallpaper.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+ header{
+    display: flex;
+    padding: 2vh 2vh;
+    border-radius: 1rem;
+    width: 50%;
+    box-shadow:6px 10px 10px rgba(0, 0, 0, 0.8);
+    background-color: #202020;
+    justify-content: center;
+}
+
+.goBackBtn{
+    position:absolute;
+    left: 40px;
+    top:40px;
+}
+main{
+    
+    margin:5vh;
+    height: 60vh;
+    border-radius: 1rem;
+    width: 40%;
+    
+    /* background-color: gray; */
+
+}
+
+.scores{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    
+    
+}
+.currentscore{
+    display: flex;
+    height: 50px;
+   
+}
+.highscore{
+    display: flex;
+    height: 80px;
+   
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.level{
+    display: flex;
+   align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+#gameBoard{
+    border: 3px solid black;
+    background-color:  #202020;
+    height: 500px;
+    width: 500px;
+    
+
+}
+
+#gameContainer{
+    text-align: center;
+}
+
+#scoreText{
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+#highscoreText{
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+#resetBtn,#startBtn{
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 30px 40px;
+    background-color: #202020;
+    color:#01cc65;
+    box-shadow:2px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+#startBtn,#resetBtn:active{
+    transform: scale(1.05);
+}
+button{
+    align-items: center;
+    justify-content:  center;
+    margin: 0px 20px;
+    
+    
+    
+} 
+
+h2{
+    color:#202020;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+label{
+    position: relative;
+    color:#01cc65;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    border:2px solid #01cc65;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #202020;
+    cursor: pointer;
+}
+
+label::before{
+    
+    content: "";
+    height: 30px;
+    width: 30px;
+    border:3px solid #01cc65;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+input[type="radio"]:checked+label{
+    background-color: #01cc65 ;
+    color: white;
+
+}
+
+input[type="radio"]:checked+label::before{
+   height: 16px;
+   width: 16px;
+   border:10px solid white;
+   background-color: #01cc65;
+    
+}
